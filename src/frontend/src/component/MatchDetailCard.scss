@@ -1,0 +1,27 @@
+.MatchDetailCard{
+    line-height: 1.6rem;
+    .team-info{
+        padding: 1%;
+    }
+    .match-details{
+        text-align: center;
+    }
+    .match-statistics{
+        margin: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .match-result-section{
+        text-align: center;
+    }
+    .won-card{
+        width:3px;
+    }
+    .lost-card{
+        width:3px;
+    }
+    .bold{
+        font-weight: bold;
+    }
+}

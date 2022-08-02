@@ -1,0 +1,32 @@
+.TeamPage{
+    margin: 5%;
+    justify-content: center;
+    .team-name-section{
+        margin: 2% auto;
+    }
+    .match-small-section{
+        margin-top: 1%;
+    }
+    
+    .small-cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+
+    @media all and(max-width:1170px){
+        .small-cards{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+    }
+    .more-link-section{  
+        margin-top: 1%;
+        padding: 1%;
+        background-color: #4da375;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+}
